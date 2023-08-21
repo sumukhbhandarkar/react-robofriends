@@ -7,7 +7,7 @@ import 'tachyons';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Hello/>
+    <Hello greeting={'Hello' + 'React Native'}/>
   </React.StrictMode>
 );
 // ReactDOM.render(<h1>Hello World</h1>, document.getElementById('root'));
